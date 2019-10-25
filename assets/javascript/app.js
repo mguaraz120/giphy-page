@@ -15,6 +15,7 @@ $(document).ready(function()
         }).done(function(response) 
         {
             var results = response.data;
+            $("#gifDiv").empty();
             for (var i = 0; i < results.length; i++) 
             {                
                 var gifAnimalDiv = $("<div>");
