@@ -1,21 +1,23 @@
 body {
-    background-image: url("../images/elephant.jpg");
-    background-repeat: repeat;
-    background-size: 100%; 
-    align-content: center;
-    width: 100%;
-
+  background-image: url("../images/elephant.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+  align-content: center;
+  width: 100%;
 }
 
 #animalTag {
-    margin: 10px;
-    color: white;
+  margin: 10px;
+  color: white;
 }
 
 .btn {
-    margin: 10px;
+  margin: 10px;
 }
 
 p {
-    color: white;
+  color: white;
+}
+#gifDiv img {
+  float: left;
 }

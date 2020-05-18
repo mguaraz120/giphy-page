@@ -1,39 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Animals make this planet better</title>
-<meta charset="utf-8">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
-integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
-<body>
-  <nav class="navbar navbar-dark bg-dark">
-    <span class="navbar-brand mb-0 h1">Animals make this planet better</span>
-    <form class="form-inline my-2 my-lg-0" id="Search">
-      <label for="Input" id="animalTag">Search your favorite Animals</label>
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" id="Input">
-      <button class="btn btn-outline-info" type="submit" id="addAnimal">Search</button>
-    </form>
-  </nav>
+  <head>
+    <title>Animals make this planet better</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <span class="navbar-brand mb-0 h1">Animals make this planet better</span>
+      <form class="form-inline my-2 my-lg-0" id="Search">
+        <label for="Input" id="animalTag">Search your favorite Animals</label>
+        <input
+          class="form-control mr-sm-2"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+          id="Input"
+        />
+        <button class="btn btn-outline-info" type="submit" id="addAnimal">
+          Search
+        </button>
+      </form>
+    </nav>
 
-  <div class="container">
-    <div class="row">
-      <button class="btn btn-light" id="creature" data-search="lion">Lion</button>
-      <button class="btn btn-light" id="creature" data-search="shark">Shark</button>
-      <button class="btn btn-light" id="creature" data-search="elephant">Elephant</button>
-      <button class="btn btn-light" id="creature" data-search="pinguin">Pinguin</button>
+    <div class="container">
+      <div class="row">
+        <button class="btn btn-light" id="creature" data-search="lion">
+          Lion
+        </button>
+        <button class="btn btn-light" id="creature" data-search="shark">
+          Shark
+        </button>
+        <button class="btn btn-light" id="creature" data-search="elephant">
+          Elephant
+        </button>
+        <button class="btn btn-light" id="creature" data-search="pinguin">
+          Pinguin
+        </button>
 
-      <div id="button"></div>
+        <div id="button"></div>
+      </div>
     </div>
-  </div>
 
-  <div class="container">
-    <div class="row">
-      <span><div id="gifDiv"></div></span>
+    <div class="container">
+      <div id="gifDiv"></div>
     </div>
-  </div>
-  <script type="text/javascript" src="assets/javascript/app.js"></script>
-</body>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
 </html>
