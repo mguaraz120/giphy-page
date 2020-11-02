@@ -49,6 +49,7 @@ $(document).ready(function () {
       animal.text(creatures[i]);
       $("#button").append(animal);
     }
+    creatures = []
   }
 
   displayButtons();
